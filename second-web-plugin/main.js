@@ -5,7 +5,7 @@ miro.onReady(() => {
     extensionPoints: {
       bottomBar: {
         title: "Widget Analyzer",
-        SvgIcon: icon,
+        svgIcon: icon,
         onClick: () => {
           //miro.board.ui.openLeftSidebar('sidebar.html')
           alert('11')
