@@ -7,7 +7,8 @@ miro.onReady(() => {
         title: "Widget Analyzer",
         SvgIcon: icon,
         onClick: () => {
-          miro.board.ui.openLeftSidebar('sidebar.html')
+          //miro.board.ui.openLeftSidebar('sidebar.html')
+          alert('11')
         }
       }
     }
