@@ -4,6 +4,17 @@
   </body>
 
   <script type="text/javascript">
-    // miro.onReady(
+    let widgets = await.board.widgets.get()
+    // widget data type, STICKER, SHAPE, TEXT, CARD, IMAGE, LINE
+
+    console.log(filterByShapeWidget(widgets))
+
+    function filterByShapeWidget(widgets) {
+      let shapes = widgets.filter(widget => {
+        return widget.type==='SHAPE'
+      })
+      return shapes
+    }
+
   </script>
 </html>
